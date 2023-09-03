@@ -44,7 +44,7 @@ All managers are basic Godot C# scripts implementing the **_Ready**, **_Process*
 There is also a script called **GlobalManager** which is a singleton class, and holds a reference to the SmartFox class instance to share the client-server connection among the project's multiple scenes.
 
 <p align="center"> 
-<img width="720" alt="connector-login" src="https://github.com/SmartFoxServer/SFS_LobbyBasics_GD4/assets/30838007/51b0c8fe-fe31-4ae6-a72d-a6eb5c376ac4">
+<img width="720" alt="connector-login" src="https://github.com/SmartFoxServer/SFS_LobbyBasics_GD4/assets/30838007/c559cfd9-d0af-41f4-866e-65323a279c25">
  </p>
 
 To learn more about this template and how it is configured for establishing a connection and handling basic SmartFoxServer events, go to the online documentation and tutorials linked below.
