@@ -21,12 +21,12 @@ This example lays the foundations for a lobby application to be used as a templa
 
 This first example of the series shows the basic structure of a multiplayer game, divided into three scenes: Login, Lobby and Game. The Login scene is where the connection to SmartFoxServer is established and login performed. The Lobby scene is the core of the example, where active games can be joined as either player or spectator, or a new game can be launched. Finally, the Game scene acts as a placeholder for an actual game, but it also shows how to implement an in-game chat.
 
-In this document we assume that you already went through the Connector tutorial. That's where the connection and login process is explained in great detail, also mentioning HTTP tunneling and protocol encryption. Those two features have not been implemented in this example and the next ones, to make the C# code lighter and focus on the lobby features implementation.
-
 <p align="center"> 
 <img width="720" alt="connector-login" src="https://github.com/SmartFoxServer/SFS_LobbyBasics_GD4/assets/30838007/2ca9144b-a247-41ab-86fd-ddabb659187c">
  </p>
-The example features a single script component. A number of properties exposed in the Editor's Inspector panel allow configuring the connection parameters and API logging behavior.
+
+In this document we assume that you already went through the Connector tutorial. That's where the connection and login process is explained in great detail, also mentioning HTTP tunneling and protocol encryption. Those two features have not been implemented in this example and the next ones, to make the C# code lighter and focus on the lobby features implementation.
+
 
 ## Setup & run
 In order to setup and run the example, follow these steps:
